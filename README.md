@@ -6,6 +6,73 @@ date: 2025-09-14
 -->
 
 
+
+# Diagrams 
+### Graph Top Down
+```mermaid
+graph TD
+    A[Open Firefox]-->B[Press Alt + Tab]
+    B --> C{Select Firefox Icon}
+    C --> D[Press ~ to cycle windows]
+    C --> E[Press Tab to switch apps]
+    D --> F[Focus desired window]
+    F --> H[Use Super + Shift + &larr; to move left]
+    F --> G[Use Super + Shift + &rarr; to move right]
+```
+### Sequence Diagram
+```mermaid
+sequenceDiagram
+    participant User
+    participant Brain
+    participant HemiSync as Hemi-Sync Audio
+    User ->> HemiSync: Listen to Audio
+    HemiSync ->> Brain: Induce Focus 10
+    Note right of Brain: Mind Awake/Body Asleep
+    Brain ->> User: Enter trance state
+    HemiSync ->> Brain: Progress to Focus 12
+    Note right of Brain: Expanded Awareness
+```
+### Gantt Chart
+
+```mermaid
+gantt
+    title Preparing Magellan Cooler with Dry Ice
+    dateFormat HH:mm
+    axisFormat %H:%M
+    section Prep
+    Pre-chill coller :a1, 08:00, 2h
+    Line interior :a2, after a1, 30m
+    section Packing
+    Wrap dry ice :a3, after a2, 15m
+    Place items :a4, after a3, 20m
+    Vent drain plug :a5, after a4, 5m
+```
+
+### Class Diagram
+```mermaid
+classDiagram
+    class Firefox {
+        +focusURLBar() : Ctrl + L
+        +closeWindow() : Alt +F4
+        +moveWindowLeft() : Super + Shift + &larr;
+        +moveWindowRight() : Super + Shift + &rarr;
+    }
+    class Ubuntu {
+        +windowSwitcher() : Alt + Tab
+    }
+    Firefox --> Ubuntu : Uses
+```
+
+### State Diagram
+```mermaid
+stateDiagram-v2
+    [*] --> ActiveWindow
+    ActiveWindow --> Monitor1 : Super + Shift + ←
+    ActiveWindow --> Monitor2 : Super + Shift + →
+    Monitor1 --> Monitor2 : Super + Shift + →
+    Monitor2 --> Monitor1 : Super + Shift + ← 
+```
+
 # Heading Examples 
 ## Heading 2
 ### Heading 3
@@ -134,17 +201,7 @@ https://tyler.ag
 # Escaping Characters  
 \*Not Bold\* instead of **Bold**
 
-# Diagrams 
-```mermaid
-graph TD
-    A[Open Firefox]-->B(Press Alt + Tab)
-    B --> C{Select Firefox Icon}
-    C --> D[Press ~ to cycle windows]
-    C --> E[Press Tab to switch apps]
-    D --> F[Focus desired window]
-    F --- H[Use Super + Shift + &larr; to move left]
-    F ==> G[Use Super + Shift + &rarr; to move right]
-```
+
 
 
 
