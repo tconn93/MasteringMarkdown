@@ -9,6 +9,8 @@ date: 2025-09-14
 
 # Diagrams 
 ### Graph Top Down
+<div style="border: 1px solid #ccc; padding: 10px;">
+    
 ```mermaid
 graph TD
     A[Open Firefox]-->B[Press Alt + Tab]
@@ -19,7 +21,11 @@ graph TD
     F --> H[Use Super + Shift + &larr; to move left]
     F --> G[Use Super + Shift + &rarr; to move right]
 ```
+</div>
+
 ### Sequence Diagram
+<div style="border: 1px solid #ccc; padding: 10px;">
+    
 ```mermaid
 sequenceDiagram
     participant User
@@ -32,8 +38,12 @@ sequenceDiagram
     HemiSync ->> Brain: Progress to Focus 12
     Note right of Brain: Expanded Awareness
 ```
-### Gantt Chart
 
+</div>
+
+### Gantt Chart
+<div style="border: 1px solid #ccc; padding: 10px;">
+    
 ```mermaid
 gantt
     title Preparing Magellan Cooler with Dry Ice
@@ -48,7 +58,11 @@ gantt
     Vent drain plug :a5, after a4, 5m
 ```
 
+</div>
+
 ### Class Diagram
+<div style="border: 1px solid #ccc; padding: 10px;">
+    
 ```mermaid
 classDiagram
     class Firefox {
@@ -63,7 +77,11 @@ classDiagram
     Firefox --> Ubuntu : Uses
 ```
 
+</div>
+
 ### State Diagram
+<div style="border: 1px solid #ccc; padding: 10px;">
+    
 ```mermaid
 stateDiagram-v2
     [*] --> ActiveWindow
@@ -72,6 +90,20 @@ stateDiagram-v2
     Monitor1 --> Monitor2 : Super + Shift + →
     Monitor2 --> Monitor1 : Super + Shift + ← 
 ```
+</div>
+
+### Entity-Relationship Diagram
+<div style="border: 1px solid #ccc; padding: 10px;">
+    
+```mermaid
+erDiagram
+    DOCUMENT ||--o{ SECTION : contains
+    SECTION ||--o{ ADMONITION : includes
+    ADMONITION ||--o{ ARROW : includes
+    SYMBOL ||--o{ ARROW : includes
+    ARROW ||--o{ UNICODE : represented_by
+```
+</div>
 
 # Heading Examples 
 ## Heading 2
