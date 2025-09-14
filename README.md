@@ -84,11 +84,12 @@ classDiagram
     
 ```mermaid
 stateDiagram-v2
-    [*] --> ActiveWindow
-    ActiveWindow --> Monitor1 : Super + Shift + ←
-    ActiveWindow --> Monitor2 : Super + Shift + →
-    Monitor1 --> Monitor2 : Super + Shift + →
-    Monitor2 --> Monitor1 : Super + Shift + ← 
+	[*] --> Awake : I wake up
+	Awake --> Hungry : every morning and I am
+	Hungry --> Satisfied : Then I eat
+	Satisfied --> Horney : Then I become 
+	Horney --> Satisfied : Then I interact with my girlfriend
+
 ```
 </div>
 
