@@ -101,19 +101,19 @@ Inline: $a^2 + b^2 = c^2$
 
 
 
-# Task lists Examples - Did not work!
+# Task lists Examples 
 - [x] Completed task
 - [ ] Incomplete task
 - [ ] another task
 
 
-# Footnotes - Did not work!
+# Footnotes 
 
 Here is some text [^1] .
 
 [^1]: This is the footnote content.
 
-# Definition Lists - Did not work!
+# Definition Lists 
 
 Term 1
 : Definition for Term 1.
@@ -122,7 +122,7 @@ Term 2
 : Definition for Term 2.
 
 
-# Emoji  - Did not work
+# Emoji  
 
 :smile: :rocket:
 
@@ -132,7 +132,7 @@ https://tyler.ag
 # Escaping Characters  
 \*Not Bold\* instead of **Bold**
 
-# Diagrams - Did not work!
+# Diagrams 
 ```mermaid
 graph TD
     A-->B
@@ -145,7 +145,7 @@ graph TD
 
 <div style="color: hotpink; font-size: 32px; font-family: 'Arial', 'Helvetica', sans-serif;">Custom text</div>
 
-# Admonitions/Callouts - Did not work!
+# Admonitions/Callouts 
 > [!NOTE]
 > This is a note. 
 
