@@ -145,13 +145,13 @@ graph TD
 
 # Custom HTML:
 
-<style>
-#customText {
-    color: blue;
-}
-</style>
+
 
 <div id="customText">Custom text</div>
+
+<div style="background-color: #e7f3fe; border-left: 6px solid #2196F3; padding: 10px;">
+<strong>Note:</strong> This is a custom-styled note using HTML.
+</div>
 
 # Admonitions/Callouts 
 > [!NOTE]
