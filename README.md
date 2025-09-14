@@ -124,7 +124,7 @@ Term 2
 
 # Emoji  
 
-:smile: :rocket:
+👁️ ❤️ 🚀 👨‍🔬
 
 https://tyler.ag
 
@@ -147,7 +147,67 @@ graph TD
 
 # Admonitions/Callouts 
 > [!NOTE]
-> This is a note. 
+> This is a note.
+
+> [!TIP]
+> Try using `Ctrl + L` to focus the Firefox URL bar quickly
+
+> [!WARNING]
+> Dry ice can cause frostbite if touched without gloves.
+
+> [!DANGER]
+> Never store dry ice in an airtight container; it may explode due to CO2 buildup.
+
+> [!INFO]
+> Markdown files typically use the `.md` extension.
+
+> [!SUCCESS]
+> Your cooler is now prepped with dry ice and ready for use!
+
+> [!QUESTION]
+> How do I move a window to another screen in Ubuntu?
+
+> [!ABSTRACT]
+> Markdown supports headings, lists, code, amd more for simple formatting.
+
+> [!BUG]
+> Firefox may not have a direct shortcut for closing Picture-in-Picture windows.
+
+> [!EXAMPLE]
+> Here's how to use the infinity symbol: ∞ , `$\infty$` , or `&infin;`.
+
+> [!QUOTE]
+> "The Gateway Process involves Focus 10, a mid awake/body asleep state."
+
+> [!FAILURE]
+> Sealing the cooler airtight with dry ice caused pressure buidup.
+
+> [!NOTE] Custom Title
+> This note has a custom title.
+
+> [!NOTE]+
+> This note is collapsible.
+
+> [!WARNING]
+> Be cautious with dry ice.
+> > [!TIP]
+> > Wear insulated gloves to avoid frostbite.
+
+> [!IDEA]
+> Make an app that gives AI "hands" to do task like send emails and create reminders.
+
+> [!TODO]
+> Finish all my projects.
+
+:::note
+This is a note.
+:::
+
+::: warning
+This is a warning.
+:::
+
+
 
 Infinity can be written as ~ or oo.
 
