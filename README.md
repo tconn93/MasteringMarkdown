@@ -1,7 +1,9 @@
+<!--
 ---
 title: How to Markdown
 date: 2025-09-14
 ---
+-->
 
 
 # Heading Examples 
@@ -214,8 +216,8 @@ Infinity can be written as ~ or oo.
 ```python
 float('inf')
 ```
-Inline: $-\infty$ to $+\infty$  
-Display: $$-\infty$$ $$to$$ $$+\infty$$
+Inline: $-\infty$ $\leftarrow$ 0 $\rightarrow$ $+\infty$  
+Display: $$-\infty$$ $$ $\leftarrow$ 0 $\rightarrow$ $$ $$+\infty$$
 
 
 
