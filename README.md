@@ -89,7 +89,7 @@ stateDiagram-v2
 	Hungry --> Satisfied : Then I eat
 	Satisfied --> Horney : Then I become 
 	Horney --> Satisfied : Then I interact with my girlfriend
-
+	Horney --> Sleep : Finally I go to bed.
 ```
 </div>
 
