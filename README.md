@@ -145,7 +145,13 @@ graph TD
 
 # Custom HTML:
 
-<div style="color: hotpink; font-size: 32px; font-family: 'Arial', 'Helvetica', sans-serif;">Custom text</div>
+<style>
+#customText {
+    color: blue;
+}
+</style>
+
+<div id="customText">Custom text</div>
 
 # Admonitions/Callouts 
 > [!NOTE]
