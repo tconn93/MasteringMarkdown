@@ -137,8 +137,13 @@ https://tyler.ag
 # Diagrams 
 ```mermaid
 graph TD
-    A-->B
-    A-->C
+    A[Open Firefox]-->B[Press Alt + Tab]
+    B --> C{Select Firefox Icon}
+    C --> D[Press ~ to cycle windows]
+    C --> E[Press Tab to switch apps]
+    D --> F[Focus desired window]
+    F --> H[Use Super + Shift + &larr; to move left]
+    F --> G[Use Super + Shift + &rarr; to move right]
 ```
 
 
